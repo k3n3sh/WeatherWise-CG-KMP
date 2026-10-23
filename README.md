@@ -43,13 +43,10 @@ A few decisions shape the code more than anything else:
 
 **iOS** (macOS with Xcode 16)
 
-```
-brew install xcodegen
-cd iosApp && xcodegen
-open iosApp.xcodeproj
-```
+1. Open `iosApp/iosApp.xcodeproj` in Xcode, pick an iPhone simulator and run the `iosApp` scheme. Or, in Android Studio with the Kotlin Multiplatform plugin, add an **iOS Application** run configuration that points at the same project.
+2. A build step compiles the shared Kotlin framework automatically, so the first build takes a few minutes.
 
-Then run the `iosApp` scheme. A build step compiles the shared Kotlin framework automatically.
+The Xcode project is generated from `iosApp/project.yml`. After changing that file, run `xcodegen` inside `iosApp/` to regenerate it.
 
 ## e. Tests and testing strategy
 

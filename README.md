@@ -169,7 +169,7 @@ I'd lean towards Swift Package Manager. It's built into Xcode, and CocoaPods is 
 
 ## l. AI usage disclosure
 
-I built this project with help from an AI coding assistant (Claude Code). I made the decisions about scope, architecture, scoring and design, and I reviewed the code it produced.
+I took help to generate doc, test cases, swift UI, some score prediction and api doc exploration.
 
 To make sure I wasn't trusting it blindly, I:
 

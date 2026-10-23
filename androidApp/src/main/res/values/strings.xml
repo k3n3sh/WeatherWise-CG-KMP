@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">WeatherWise</string>
+
+    <string name="hero_title">Where to this week?</string>
+    <string name="hero_subtitle">Find the best activities for the next 7 days</string>
+    <string name="search_hint">Search a city</string>
+    <string name="search_clear">Clear search</string>
+    <string name="search_close">Close search</string>
+    <string name="recent_title">Recent</string>
+    <string name="recent_updated">Updated %1$s</string>
+    <string name="no_match">No cities match \"%1$s\"</string>
+    <string name="retry">Retry</string>
+    <string name="attribution">Weather data by Open-Meteo.com</string>
+
+    <string name="back">Back</string>
+    <string name="saved_data">Showing saved data · Last updated %1$s</string>
+    <string name="score_out_of" tools:ignore="PluralsCandidate">%1$d/100</string>
+    <string name="no_data">No data</string>
+    <string name="best_day">Best day %1$s</string>
+    <string name="show_days">Show daily scores</string>
+    <string name="hide_days">Hide daily scores</string>
+    <string name="rank_description" tools:ignore="PluralsCandidate">Rank %1$d, %2$s, score %3$d out of 100</string>
+    <string name="rank_description_no_data">%1$s, %2$s</string>
+
+    <string name="activity_outdoor">Outdoor sightseeing</string>
+    <string name="activity_indoor">Indoor sightseeing</string>
+    <string name="activity_skiing">Skiing</string>
+    <string name="activity_surfing">Surfing</string>
+
+    <string name="reason_thunderstorm">Thunderstorm</string>
+    <string name="reason_freezing_rain">Freezing rain</string>
+    <string name="reason_heavy_snow">Heavy snow</string>
+    <string name="reason_strong_gusts">Strong gusts</string>
+    <string name="reason_extreme_heat">Too hot</string>
+    <string name="reason_extreme_cold">Too cold</string>
+    <string name="reason_no_snow">No snow on the ground</string>
+    <string name="reason_dangerous_waves">Dangerous waves</string>
+    <string name="reason_no_sea_data">No sea data for this location</string>
+    <string name="reason_missing_data">No data</string>
+
+    <string name="error_network">No internet connection.</string>
+    <string name="error_timeout">The request took too long.</string>
+    <string name="error_server">The weather service had a problem (%1$d).</string>
+    <string name="error_parsing">The weather service sent something unexpected.</string>
+    <string name="error_unknown">Something went wrong.</string>
+</resources>

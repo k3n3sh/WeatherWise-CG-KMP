@@ -1,0 +1,14 @@
+.gradle/
+.kotlin/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+iosApp/*.xcodeproj/xcuserdata/
+iosApp/*.xcodeproj/project.xcworkspace/xcuserdata/
+iosApp/build/
+
+# Private design notes, kept out of the repo
+docs/
